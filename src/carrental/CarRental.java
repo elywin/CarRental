@@ -94,7 +94,7 @@ class CarRentalContract{
 }
       public String toString(){
           
-     String[] myarr= new String[4];
+     String[] myarr= new String[2];
      for(int i=0;i<myarr.length;i++){
           myarr[i]=cus.name+":This vehicle is "+c.color+", "+c.toString();
         // myarr[i]=cus.name+":This vehicle is "+c.color+", "+c.toString()+" "+t.toString();
